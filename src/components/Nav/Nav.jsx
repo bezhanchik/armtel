@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import './Nav.css';
+import logo from '../../../public/armtel.png'
 
 const menuItems = [
   { path: '/monitoring', label: 'Мониторинг' },
@@ -14,7 +15,7 @@ function Nav() {
     <div className="sidebar">
       <div className="logo">
         <img 
-          src="/armtel.png" 
+          src={logo} 
           alt="armtel-logo" 
         />
       </div>
