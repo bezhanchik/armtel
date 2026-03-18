@@ -1,0 +1,36 @@
+{
+  "number": "armtelics",
+  "username": "bezhan",
+  "password": "12345678",
+  "staticAddress": true,
+  "aclAddress": false,
+  "address1": "",
+  "address2": "",
+  "priority": "0",
+  "priorityHandling": "queue",
+  "checkAvailability": true,
+  "checkFrequency": "60",
+  "sendRLF": true,
+  "customRLF": false,
+  "noiseSuppression": false,
+  "videoSupport": false,
+  "registerCalls": true,
+  "deactivated": false,
+  "proxy": true,
+  "selectedCodecs": [
+    "alaw",
+    "speex",
+    "speex16",
+    "slaw",
+    "siren7",
+    "siren14",
+    "alawdct"
+  ],
+  "availableCodecs": [],
+  "selectedFragments": [
+    "CHIMEshort",
+    "CHIME"
+  ],
+  "availableFragments": [],
+  "created_at": "2026-03-18T14:28:35.570364"
+}

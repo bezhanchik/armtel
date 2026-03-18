@@ -1,6 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import Settings from './pages/Settings.jsx';
+import Plan from './pages/Plan.jsx';
 
 // Заглушки страниц
 const Monitoring = () => (
@@ -42,6 +43,7 @@ function App() {
         <Route path="/settings" element={<Settings />} />
         <Route path="/reports" element={<Reports />} />
         <Route path="/admin" element={<Admin />} />
+        <Route path="/plan" element={<Plan />} />
       </Routes>
     </Layout>
   );

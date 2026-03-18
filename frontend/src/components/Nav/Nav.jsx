@@ -8,6 +8,7 @@ const menuItems = [
   { path: '/settings', label: 'Настройка' },
   { path: '/reports', label: 'Отчёты' },
   { path: '/admin', label: 'Администрирование' },
+  { path: '/plan', label: 'План нумерации' },
 ];
 
 function Nav() {
