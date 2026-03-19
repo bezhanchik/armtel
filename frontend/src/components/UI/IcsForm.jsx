@@ -105,6 +105,7 @@ const IcsForm = ({ onSubmit, onCancel, loading }) => {
             className="form-input"
             value={formData.number}
             onChange={handleChange}
+            required
           />
         </div>
 
@@ -116,6 +117,7 @@ const IcsForm = ({ onSubmit, onCancel, loading }) => {
             className="form-input"
             value={formData.username}
             onChange={handleChange}
+            required
           />
         </div>
 
@@ -127,6 +129,7 @@ const IcsForm = ({ onSubmit, onCancel, loading }) => {
             className="form-input"
             value={formData.password}
             onChange={handleChange}
+            required
           />
         </div>
 
