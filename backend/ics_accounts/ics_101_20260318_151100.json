@@ -1,0 +1,36 @@
+{
+  "number": "101",
+  "username": "zabbix",
+  "password": "1111111111",
+  "staticAddress": false,
+  "aclAddress": true,
+  "address1": "",
+  "address2": "",
+  "priority": "0",
+  "priorityHandling": "disconnect",
+  "checkAvailability": true,
+  "checkFrequency": "60",
+  "sendRLF": true,
+  "customRLF": false,
+  "noiseSuppression": false,
+  "videoSupport": false,
+  "registerCalls": false,
+  "deactivated": false,
+  "proxy": true,
+  "selectedCodecs": [
+    "alaw",
+    "speex",
+    "speex16",
+    "slaw",
+    "siren7",
+    "siren14",
+    "alawdct"
+  ],
+  "availableCodecs": [],
+  "selectedFragments": [
+    "CHIMEshort",
+    "CHIME"
+  ],
+  "availableFragments": [],
+  "created_at": "2026-03-18T15:11:00.415602"
+}

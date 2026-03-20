@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 import json
 import os
-from typing import List, Optional
+from typing import List
 from datetime import datetime
 
 app = FastAPI()
@@ -115,6 +115,8 @@ def get_ics_accounts():
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
 
 # Удаление аккаунта
 @app.delete('/api/ics/accounts/{filename}')

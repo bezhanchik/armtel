@@ -1,0 +1,37 @@
+{
+  "number": "1",
+  "username": "11111",
+  "password": "111",
+  "staticAddress": false,
+  "aclAddress": false,
+  "address1": "",
+  "address2": "",
+  "priority": "0",
+  "priorityHandling": "disconnect",
+  "checkAvailability": true,
+  "checkFrequency": "60",
+  "sendRLF": true,
+  "customRLF": false,
+  "noiseSuppression": false,
+  "videoSupport": false,
+  "registerCalls": false,
+  "deactivated": true,
+  "proxy": false,
+  "selectedCodecs": [
+    "alaw"
+  ],
+  "availableCodecs": [
+    "speex",
+    "speex16",
+    "slaw",
+    "siren7",
+    "siren14",
+    "alawdct"
+  ],
+  "selectedFragments": [],
+  "availableFragments": [
+    "CHIMEshort",
+    "CHIME"
+  ],
+  "created_at": "2026-03-18T15:26:52.389954"
+}
